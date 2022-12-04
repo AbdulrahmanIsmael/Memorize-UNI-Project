@@ -1,0 +1,93 @@
+header {
+  background-color: #00182b;
+  color: #fff;
+  padding: 35px 100px;
+  .navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .logo {
+      a {
+        margin-right: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .small-text {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 16px;
+        margin-right: 5px;
+      }
+      .big-text {
+        color: #bf0a2f;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 22px;
+      }
+    }
+    .nav-list {
+      .buttons {
+        display: flex;
+        li {
+          margin-right: 15px;
+          .btn {
+            background-color: #bf0a2f;
+            color: #fff;
+            border: 1px solid #bf0a2f;
+            padding: 10px 15px;
+            font-size: 14px;
+            border-radius: 40px;
+            transition: 250ms ease-in;
+            &:hover:not(.disabled-btn) {
+              background-color: #fff;
+              color: #bf0a2f;
+              border: 1px solid #bf0a2f;
+            }
+          }
+          .disabled-btn {
+            background-color: #bf0a2f;
+            color: #fff;
+            border: 1px solid #bf0a2f;
+            padding: 10px 15px;
+            font-size: 14px;
+            border-radius: 40px;
+            opacity: 0.7;
+            cursor: not-allowed;
+          }
+        }
+      }
+    }
+    .submit {
+      flex: 1;
+      text-align: end;
+      .submit-btn {
+        cursor: pointer;
+        font-size: 16px;
+        border: 0;
+        padding: 8px 12px;
+        border-radius: 20px;
+        background-color: #bf0a2f;
+        border: 1px solid #bf0a2f;
+        color: #fff;
+        transition: 250ms ease-in;
+        &:hover {
+          background-color: #fff;
+          color: #bf0a2f;
+          border: 1px solid #bf0a2f;
+        }
+
+        &.disabled-btn {
+          background-color: #bf0a2f;
+          color: #fff;
+          border: 1px solid #bf0a2f;
+          padding: 10px 15px;
+          font-size: 14px;
+          border-radius: 40px;
+          opacity: 0.7;
+          cursor: not-allowed;
+        }
+      }
+    }
+  }
+}

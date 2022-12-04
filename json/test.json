@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "Quetion": "Which choice best describes what happens in the passage?",
+    "option1": "One Character Argues With Another Character Who Intrudes On Her Home.",
+    "option2": "One Character Receives A Surprising Request From Another Character",
+    "option3": "One Character Reminisces About Choices She Has Made Over The Years.",
+    "option4": "One Character Criticizes Another Character For Pursuing An Unexpected Course Of Action."
+  },
+  {
+    "id": 2,
+    "Quetion": "Which choice best describes the developmental pattern of the passage?",
+    "option1": "A Careful Analysis Of A Traditional Practice",
+    "option2": "A Detailed Depiction Of A Meaningful Encounter",
+    "option3": "A Definitive Response To A Series Of Questions",
+    "option4": "A Cheerful Recounting Of An Amusing Anecdote"
+  },
+  {
+    "id": 3,
+    "Quetion": " As used in line 1 and line 65, “directly” most nearly means",
+    "option1": "Frankly",
+    "option2": "Confidently",
+    "option3": "Without Mediation",
+    "option4": "With Precision."
+  },
+  {
+    "id": 4,
+    "Quetion": "Which reaction does Akira most fear from Chie?",
+    "option1": "She Will Consider His Proposal Inappropriate.",
+    "option2": "She Will Mistake His Earnestness For Immaturity.",
+    "option3": "She Will Consider His Unscheduled Visit An Imposition.",
+    "option4": "She Will Underestimate The Sincerity Of His Emotions."
+  },
+  {
+    "id": 5,
+    "Quetion": "Which choice provides the best evidence for the answer to the previous question?",
+    "option1": "Line 33 (“His Voice... Refined”)",
+    "option2": "Lines 49-51 (“You... Mind”)",
+    "option3": "Lines 63-64 (“Please... Proposal”)",
+    "option4": "Lines 71-72 (“Eager... Face”)"
+  },
+  {
+    "id": 6,
+    "Quetion": "In the passage, Akira addresses Chie with",
+    "option1": "Affection But Not Genuine Love.",
+    "option2": "Objectivity But Not Complete Impartiality",
+    "option3": "Amusement But Not Mocking Disparagement.",
+    "option4": "Respect But Not Utter Deference."
+  },
+  {
+    "id": 7,
+    "Quetion": "The main purpose of the first paragraph is to",
+    "option1": "Describe A Culture.",
+    "option2": "Question A Suggestion.",
+    "option3": "Analyze A Reaction.",
+    "option4": "Criticize A Tradition."
+  },
+  {
+    "id": 8,
+    "Quetion": "As used in line 2, “form” most nearly means",
+    "option1": "Custom.",
+    "option2": "Structure",
+    "option3": "Appearance",
+    "option4": "-Nature."
+  },
+  {
+    "id": 9,
+    "Quetion": "Why does Akira say his meeting with Chie is “a matter of urgency” (line 32)?",
+    "option1": "He Fears That His Own Parents Will Disapprove Of Naomi.",
+    "option2": "He Worries That Naomi Will Reject Him And Marry Someone Else.",
+    "option3": "He Has Been Offered An Attractive Job In Another Country.",
+    "option4": "He Knows That Chie Is Unaware Of His Feelings For Naomi."
+  },
+  {
+    "id": 10,
+    "Quetion": "Which choice provides the best evidence for the answer to the previous question?",
+    "option1": "Line 39 (“I Don’t... You”)",
+    "option2": "Lines 39-42 (“Normally... Community”)",
+    "option3": "Lines 58-59 (“Depending... Japan”)",
+    "option4": "Lines 72-73 (“I See... You”)"
+  }
+]
