@@ -7,7 +7,7 @@ function startTest() {
   btn.addEventListener("click", (e) => {
     if (nameInp.value !== "") {
       localStorage.setItem("Username", nameInp.value);
-      window.location.href = "../test.html";
+      window.location.href = "../loading.html";
     } else {
       alert("Please Enter Your Name...");
     }

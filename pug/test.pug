@@ -14,7 +14,7 @@ html(lang="en")
     main#test-body
       .test-text
         .cat Category : #[span SAT]
-        .time-remained Remaining Time #[span.time #[span.min 60]:#[span.sec 00]]
+        .time-remained Remaining Time #[span.time #[span.min #[span.min1 6]#[span.min2 0]]:#[span.sec #[span.sec1 0]#[span.sec2 0]]]
       .test-par
         h2 Read the paragraph well, then Click Start Now button & answer the Questions.
         p &nbsp;
@@ -128,20 +128,20 @@ html(lang="en")
       // Questions
       .test-questions
         .question
-          h2.questions-heading This is a Question ?
+          h2.questions-heading Which choice best describes what happens in the passage?
           form.radioBtn
             .choice(data-choice="choice1")
               input(type="radio", name="choice", id="radio", data-choice="choice1")
-              label(data-choice="choice1") This is the first choice
+              label(data-choice="choice1") One Character Argues With Another Character Who Intrudes On Her Home.
             .choice(data-choice="choice2")
               input(type="radio", name="choice", id="radio", data-choice="choice2")
-              label(data-choice="choice2") This is the second choice 
+              label(data-choice="choice2") One Character Receives A Surprising Request From Another Character.
             .choice(data-choice="choice3")
               input(type="radio", name="choice", id="radio", data-choice="choice3")
-              label(data-choice="choice3") This is the third choice
+              label(data-choice="choice3") One Character Reminisces About Choices She Has Made Over The Years.
             .choice(data-choice="choice4")
               input(type="radio", name="choice", id="radio", data-choice="choice4")
-              label(data-choice="choice4") This is the forth choice
+              label(data-choice="choice4") One Character Criticizes Another Character For Pursuing An Unexpected Course Of Action.
       .test-nav
         ul.nav-list
           -for(let i = 1; i<=10; i++)

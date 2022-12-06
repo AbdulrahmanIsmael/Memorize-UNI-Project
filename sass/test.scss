@@ -27,6 +27,9 @@
       .time {
         font-size: 28px;
         color: $alt-color;
+        &.split {
+          display: none;
+        }
       }
     }
   }
@@ -125,7 +128,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         .choice {
-          width: 70%;
+          width: 100%;
           cursor: pointer;
           padding: 15px 10px;
           border-radius: 20px;
@@ -137,6 +140,7 @@
           }
 
           label {
+            font-size: 15px;
             cursor: pointer;
           }
 
