@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Memorization Test
 
@@ -38,3 +39,7 @@ I'm a front End developer, I have the ability to build interactive, responsive a
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdulrahman-mohammed22/)
 
+=======
+# Memorization-test-Project
+***DEPRECATED*** : Not Completed yet....
+>>>>>>> b8ed6f6998c5ff37d42d93bbd404c3739fc8be41
