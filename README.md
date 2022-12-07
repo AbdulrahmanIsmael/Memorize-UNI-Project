@@ -21,7 +21,6 @@ The project is full of JavaScript Functionality, And I innovated the Design, so 
 - Sass
 - JavaScript
 
-=======
 <br>
 <hr>
 
