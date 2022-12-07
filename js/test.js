@@ -3,8 +3,8 @@
 const choices = document.querySelectorAll(".choice");
 const inputs = document.querySelectorAll(".choice > input");
 const navBtns = document.querySelectorAll(".nav-list > li > a");
-const prevBtn = document.getElementById("prev");
-const nextBtn = document.getElementById("next");
+const prevBtn = document.querySelector("#prev > .btn");
+const nextBtn = document.querySelector("#next > .btn");
 
 // *first nav btn is auto selected...
 navBtns[0].classList.add("selected");
@@ -67,7 +67,7 @@ async function fetchQuestion(comp) {
       }
     });
   } catch (Error) {
-    throw Error("Something wrong happened", Error);
+    console.log(Error);
   }
 }
 
@@ -164,7 +164,70 @@ function setTimer() {
   }, 1000);
 }
 
-// function minRedux() {
-//   seconds2.innerText = +seconds2.innerText - 1;
-// }
 //TODO-End: Function to set the timer
+
+//TODO-Start: next / prev btns
+// Define DOM
+// Functions
+nextQuestionBtn();
+
+function nextQuestionBtn() {
+  nextBtn.addEventListener("click", () => {
+    for (let i = 0; i < navBtns.length; i++) {
+      if (nextBtn.classList.contains("disabled-btn") === false) {
+        if (navBtns[i].classList.contains("selected")) {
+          navBtns[i].classList.remove("selected");
+          navBtns[i + 1].classList.add("selected");
+          navBtns.forEach((e) => {
+            if (e.classList.contains("selected")) {
+              if (e.innerText === "1") {
+                prevBtn.classList.add("disabled-btn");
+                nextBtn.classList.remove("disabled-btn");
+              } else if (e.innerText === "10") {
+                nextBtn.classList.add("disabled-btn");
+                prevBtn.classList.remove("disabled-btn");
+              } else {
+                prevBtn.classList.remove("disabled-btn");
+                nextBtn.classList.remove("disabled-btn");
+              }
+            }
+          });
+          fetchQuestion(navBtns[i + 1].innerText);
+          break;
+        }
+      }
+    }
+  });
+}
+
+prevQuestionBtn();
+
+function prevQuestionBtn() {
+  prevBtn.addEventListener("click", () => {
+    for (let i = 0; i < navBtns.length; i++) {
+      if (prevBtn.classList.contains("disabled-btn") === false) {
+        if (navBtns[i].classList.contains("selected")) {
+          navBtns[i].classList.remove("selected");
+          navBtns[i - 1].classList.add("selected");
+          navBtns.forEach((e) => {
+            if (e.classList.contains("selected")) {
+              if (e.innerText === "1") {
+                prevBtn.classList.add("disabled-btn");
+                nextBtn.classList.remove("disabled-btn");
+              } else if (e.innerText === "10") {
+                nextBtn.classList.add("disabled-btn");
+                prevBtn.classList.remove("disabled-btn");
+              } else {
+                prevBtn.classList.remove("disabled-btn");
+                nextBtn.classList.remove("disabled-btn");
+              }
+            }
+          });
+          fetchQuestion(navBtns[i - 1].innerText);
+          break;
+        }
+      }
+    }
+  });
+}
+//TODO-End: next / prev btns

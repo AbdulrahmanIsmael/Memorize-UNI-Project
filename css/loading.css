@@ -83,7 +83,7 @@ body {
   display: block;
   width: 25%;
   height: 25%;
-  background-color: #bf0a30;
+  background-color: #829e53;
   border-radius: 100%;
   -webkit-animation: sk-chase-dot-before 2s infinite ease-in-out both;
           animation: sk-chase-dot-before 2s infinite ease-in-out both;
@@ -142,6 +142,6 @@ body {
   font-size: 20px;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #2c3e50;
+  color: #285430;
 }
 /*# sourceMappingURL=loading.css.map */

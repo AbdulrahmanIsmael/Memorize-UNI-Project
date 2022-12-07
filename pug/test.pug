@@ -6,7 +6,7 @@ html(lang="en")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     link(rel="stylesheet", href="css/test.css")
-    title Invo Academy | Test
+    title Memorization UNI | Test
   body
     include ./include/navbar.pug
     |
@@ -132,20 +132,24 @@ html(lang="en")
           form.radioBtn
             .choice(data-choice="choice1")
               input(type="radio", name="choice", id="radio", data-choice="choice1")
-              label(data-choice="choice1") One Character Argues With Another Character Who Intrudes On Her Home.
+              label(data-choice="choice1", id="choice1") One Character Argues With Another Character Who Intrudes On Her Home.
             .choice(data-choice="choice2")
               input(type="radio", name="choice", id="radio", data-choice="choice2")
-              label(data-choice="choice2") One Character Receives A Surprising Request From Another Character.
+              label(data-choice="choice2", id="choice2") One Character Receives A Surprising Request From Another Character.
             .choice(data-choice="choice3")
               input(type="radio", name="choice", id="radio", data-choice="choice3")
-              label(data-choice="choice3") One Character Reminisces About Choices She Has Made Over The Years.
+              label(data-choice="choice3", id="choice3") One Character Reminisces About Choices She Has Made Over The Years.
             .choice(data-choice="choice4")
               input(type="radio", name="choice", id="radio", data-choice="choice4")
-              label(data-choice="choice4") One Character Criticizes Another Character For Pursuing An Unexpected Course Of Action.
+              label(data-choice="choice4", id="choice4") One Character Criticizes Another Character For Pursuing An Unexpected Course Of Action.
       .test-nav
+        #prev
+          button.btn.disabled-btn <
         ul.nav-list
           -for(let i = 1; i<=10; i++)
             li #[a(href="#") #{i}]
+        #next
+          button.btn >
     |
     |
     script(src="./js/test.js")

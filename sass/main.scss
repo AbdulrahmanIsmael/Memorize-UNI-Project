@@ -7,7 +7,7 @@
 }
 
 header {
-  background-color: #00182b;
+  background-color: $main-text-color;
   color: #fff;
   padding: 35px 100px;
   display: flex;
@@ -22,14 +22,14 @@ header {
     .small-text {
       text-transform: uppercase;
       font-weight: 500;
-      font-size: 20px;
-      margin-right: 5px;
+      font-size: 23px;
     }
     .big-text {
-      color: #bf0a2f;
+      color: #e5d9b6;
       font-weight: 700;
       text-transform: uppercase;
-      font-size: 25px;
+      font-size: 30px;
+      margin-right: 8px;
     }
   }
 }
@@ -42,7 +42,7 @@ header {
   form {
     border-radius: 20px;
     box-shadow: 2px 2px 3px #333;
-    background-color: #00182b;
+    background-color: $main-text-color;
     color: #fff;
     height: 200px;
     width: 400px;
@@ -77,14 +77,14 @@ header {
       border: 0;
       padding: 8px 12px;
       border-radius: 20px;
-      background-color: #bf0a2f;
-      border: 1px solid #bf0a2f;
-      color: #fff;
+      background-color: #fff;
+      border: 1px solid $main-text-color;
+      color: $main-text-color;
       transition: 250ms ease-in;
       &:hover {
-        background-color: #fff;
-        color: #bf0a2f;
-        border: 1px solid #bf0a2f;
+        background-color: #a4be7b;
+        color: #fff;
+        border: 1px solid #a4be7b;
       }
     }
   }

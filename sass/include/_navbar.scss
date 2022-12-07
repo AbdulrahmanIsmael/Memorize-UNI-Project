@@ -1,5 +1,5 @@
 header {
-  background-color: #00182b;
+  background-color: $main-text-color;
   color: #fff;
   padding: 35px 100px;
   .navbar {
@@ -16,46 +16,14 @@ header {
       .small-text {
         text-transform: uppercase;
         font-weight: 500;
-        font-size: 16px;
-        margin-right: 5px;
+        font-size: 23px;
       }
       .big-text {
-        color: #bf0a2f;
+        color: $alt-color;
         font-weight: 700;
         text-transform: uppercase;
-        font-size: 22px;
-      }
-    }
-    .nav-list {
-      .buttons {
-        display: flex;
-        li {
-          margin-right: 15px;
-          .btn {
-            background-color: #bf0a2f;
-            color: #fff;
-            border: 1px solid #bf0a2f;
-            padding: 10px 15px;
-            font-size: 14px;
-            border-radius: 40px;
-            transition: 250ms ease-in;
-            &:hover:not(.disabled-btn) {
-              background-color: #fff;
-              color: #bf0a2f;
-              border: 1px solid #bf0a2f;
-            }
-          }
-          .disabled-btn {
-            background-color: #bf0a2f;
-            color: #fff;
-            border: 1px solid #bf0a2f;
-            padding: 10px 15px;
-            font-size: 14px;
-            border-radius: 40px;
-            opacity: 0.7;
-            cursor: not-allowed;
-          }
-        }
+        font-size: 30px;
+        margin-right: 8px;
       }
     }
     .submit {
@@ -67,20 +35,20 @@ header {
         border: 0;
         padding: 8px 12px;
         border-radius: 20px;
-        background-color: #bf0a2f;
-        border: 1px solid #bf0a2f;
+        background-color: #5f8d4e;
+        border: 1px solid #5f8d4e;
         color: #fff;
         transition: 250ms ease-in;
         &:hover {
           background-color: #fff;
-          color: #bf0a2f;
-          border: 1px solid #bf0a2f;
+          color: $main-text-color;
+          border: 1px solid $alt-color;
         }
 
         &.disabled-btn {
-          background-color: #bf0a2f;
+          background-color: $alt-color;
           color: #fff;
-          border: 1px solid #bf0a2f;
+          border: 1px solid $alt-color;
           padding: 10px 15px;
           font-size: 14px;
           border-radius: 40px;
