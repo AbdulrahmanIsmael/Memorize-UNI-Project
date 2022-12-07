@@ -21,6 +21,10 @@ The project is full of JavaScript Functionality, And I innovated the Design, so 
 - Sass
 - JavaScript
 
+<<<<<<< HEAD
+=======
+<br>
+>>>>>>> e7cbcc15c40e09550938ff52d66b2d605879b622
 <hr>
 
 ## 🚀 About Me
@@ -39,5 +43,8 @@ I'm a front End developer, I have the ability to build interactive, responsive a
 - React.js (In progress)
 
 ## 🔗 Links
+<<<<<<< HEAD
 
+=======
+>>>>>>> e7cbcc15c40e09550938ff52d66b2d605879b622
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdulrahman-mohammed22/)
