@@ -1,6 +1,6 @@
 loadTest();
 function loadTest() {
   setTimeout(() => {
-    window.location.href = "../test.html";
+    window.location = "../test.html";
   }, 2000);
 }
