@@ -15,8 +15,7 @@
 - Sass
 - JavaScript
 
-<br>
-<hr>
+---
 
 ## 🚀 About Me
 
