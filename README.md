@@ -1,17 +1,11 @@
-# Memorization Test
+# Memorize UNI
 
-**_DEPRECATED_** : Not Completed yet....
-
-A Memorization Test project to test your memory by reading a paragraph and answer the Questions and let's see if you remember things well or not!
+**Memorize UNI project** provides a test model for anyone to check the memory by reading a paragraph and answer the Questions related to the paragraph, know the percentage of memorization with small tips to improve your way in memorizing
 
 - The wabsite includes 3 pages :
   - **The Start page** : To Enter Your Name and start the test
   - **The Test page** : To Read the Paragraph and start the test
   - **The results page** : To Show the Results of the Test and the percentage of Your Memorization
-
-## Appendix
-
-The project is full of JavaScript Functionality, And I innovated the Design, so the visualization appearance may not be the best...
 
 ## Tools
 
@@ -21,10 +15,7 @@ The project is full of JavaScript Functionality, And I innovated the Design, so 
 - Sass
 - JavaScript
 
-<<<<<<< HEAD
-=======
 <br>
->>>>>>> e7cbcc15c40e09550938ff52d66b2d605879b622
 <hr>
 
 ## 🚀 About Me
@@ -43,8 +34,5 @@ I'm a front End developer, I have the ability to build interactive, responsive a
 - React.js (In progress)
 
 ## 🔗 Links
-<<<<<<< HEAD
 
-=======
->>>>>>> e7cbcc15c40e09550938ff52d66b2d605879b622
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdulrahman-mohammed22/)
