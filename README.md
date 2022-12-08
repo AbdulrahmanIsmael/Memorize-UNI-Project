@@ -1,7 +1,5 @@
 # Memorize UNI
 
-**_DEPRECATED_** : Not Completed yet....
-
 **Memorize UNI project** provides a test model for anyone to check the memory by reading a paragraph and answer the Questions related to the paragraph, know the percentage of memorization with small tips to improve your way in memorizing
 
 - The wabsite includes 3 pages :
