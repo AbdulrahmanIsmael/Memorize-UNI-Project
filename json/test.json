@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "question": "Which choice best describes what happens in the passage?",
+    "question": "1. Which choice best describes what happens in the passage?",
     "option1": "One Character Argues With Another Character Who Intrudes On Her Home.",
     "option2": "One Character Receives A Surprising Request From Another Character.",
     "option3": "One Character Reminisces About Choices She Has Made Over The Years.",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "question": "Which choice best describes the developmental pattern of the passage?",
+    "question": "2. Which choice best describes the developmental pattern of the passage?",
     "option1": "A Careful Analysis Of A Traditional Practice",
     "option2": "A Detailed Depiction Of A Meaningful Encounter",
     "option3": "A Definitive Response To A Series Of Questions",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "question": " As used in line 1 and line 65, “directly” most nearly means",
+    "question": "3. As used in line 1 and line 65, “directly” most nearly means",
     "option1": "Frankly",
     "option2": "Confidently",
     "option3": "Without Mediation",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "question": "Which reaction does Akira most fear from Chie?",
+    "question": "4. Which reaction does Akira most fear from Chie?",
     "option1": "She Will Consider His Proposal Inappropriate.",
     "option2": "She Will Mistake His Earnestness For Immaturity.",
     "option3": "She Will Consider His Unscheduled Visit An Imposition.",
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "question": "Which choice provides the best evidence for the answer to the previous question?",
+    "question": "5. Which choice provides the best evidence for the answer to the previous question?",
     "option1": "Line 33 (“His Voice... Refined”)",
     "option2": "Lines 49-51 (“You... Mind”)",
     "option3": "Lines 63-64 (“Please... Proposal”)",
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "question": "In the passage, Akira addresses Chie with",
+    "question": "6. In the passage, Akira addresses Chie with",
     "option1": "Affection But Not Genuine Love.",
     "option2": "Objectivity But Not Complete Impartiality",
     "option3": "Amusement But Not Mocking Disparagement.",
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "question": "The main purpose of the first paragraph is to",
+    "question": "7. The main purpose of the first paragraph is to",
     "option1": "Describe A Culture.",
     "option2": "Question A Suggestion.",
     "option3": "Analyze A Reaction.",
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "question": "As used in line 2, “form” most nearly means",
+    "question": "8. As used in line 2, “form” most nearly means",
     "option1": "Custom.",
     "option2": "Structure",
     "option3": "Appearance",
@@ -65,7 +65,7 @@
   },
   {
     "id": 9,
-    "question": "Why does Akira say his meeting with Chie is “a matter of urgency” (line 32)?",
+    "question": "9. Why does Akira say his meeting with Chie is “a matter of urgency” (line 32)?",
     "option1": "He Fears That His Own Parents Will Disapprove Of Naomi.",
     "option2": "He Worries That Naomi Will Reject Him And Marry Someone Else.",
     "option3": "He Has Been Offered An Attractive Job In Another Country.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 10,
-    "question": "Which choice provides the best evidence for the answer to the previous question?",
+    "question": "10. Which choice provides the best evidence for the answer to the previous question?",
     "option1": "Line 39 (“I Don’t... You”)",
     "option2": "Lines 39-42 (“Normally... Community”)",
     "option3": "Lines 58-59 (“Depending... Japan”)",

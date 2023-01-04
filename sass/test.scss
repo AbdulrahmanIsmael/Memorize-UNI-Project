@@ -184,6 +184,12 @@
             color: #fff;
             background-color: $main-text-color;
           }
+
+          &.chosen {
+            background-color: rgb(37, 32, 187) !important;
+            color: #fff !important;
+            border: 0 !important;
+          }
         }
       }
     }

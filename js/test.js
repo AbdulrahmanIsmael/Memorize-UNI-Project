@@ -22,8 +22,14 @@ function checkChoice() {
           if (
             input.getAttribute("data-choice") ===
             e.target.getAttribute("data-choice")
-          )
+          ) {
+            navBtns.forEach((btn) => {
+              if (btn.classList.contains("selected")) {
+                btn.classList.add("chosen");
+              }
+            });
             input.checked = true;
+          }
         });
       }
     });
@@ -73,16 +79,31 @@ async function fetchQuestion(comp) {
 
 function addQuestion(obj) {
   const questionHeading = document.querySelector(".questions-heading");
+  const fullQuestion = document.getElementById("fullQuestion");
   const option1 = document.getElementById("choice1");
   const option2 = document.getElementById("choice2");
   const option3 = document.getElementById("choice3");
   const option4 = document.getElementById("choice4");
 
+  fullQuestion.setAttribute("data-id", obj.id);
   questionHeading.innerHTML = obj.question;
+  questionHeading.setAttribute("data-id", obj.id);
   option1.innerHTML = obj.option1;
+  option1.setAttribute("data-id", obj.id);
+  option1.parentElement.setAttribute("data-id", obj.id);
   option2.innerHTML = obj.option2;
+  option2.setAttribute("data-id", obj.id);
+  option2.parentElement.setAttribute("data-id", obj.id);
   option3.innerHTML = obj.option3;
+  option3.setAttribute("data-id", obj.id);
+  option3.parentElement.setAttribute("data-id", obj.id);
   option4.innerHTML = obj.option4;
+  option4.setAttribute("data-id", obj.id);
+  option4.parentElement.setAttribute("data-id", obj.id);
+
+  inputs.forEach((e) => {
+    e.setAttribute("data-id", obj.id);
+  });
 }
 //TODO-End: dealing with checked answers system and navigate through questions
 
