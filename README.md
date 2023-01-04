@@ -1,6 +1,6 @@
-# Memorize UNI
+# Quiz Test
 
-**Memorize UNI project** provides a test model for anyone to check the memory by reading a paragraph and answer the Questions related to the paragraph, know the percentage of memorization with small tips to improve your way in memorizing
+**Quiz Test project** provides a test model for anyone to check the memory by reading a paragraph and answer the Questions related to the paragraph, Then check your result to know if you answered all the questions right!
 
 - The wabsite includes 3 pages :
   - **The Start page** : To Enter Your Name and start the test
